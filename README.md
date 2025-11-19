@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+🎯 React Quiz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean and well-structured React Quiz Application built using modern React hooks such as useReducer and useEffect.
+This app demonstrates strong knowledge of state management, component composition, and clean reusable code
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+🚀 Core Features
 
-### `npm start`
+📦 Fake API Integration
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+• Created a custom fake API for quiz questions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+• Used useEffect to fetch and render questions dynamically when the app starts.
 
-### `npm test`
+🎚️ Filter by Difficulty
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+• Users can filter questions by difficulty level: All, Easy, Medium, or Hard.
 
-### `npm run build`
+• Each difficulty level affects the points assigned to the question.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🏆 Dynamic Scoring System
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+• Each question has a specific point value based on difficulty.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+• After completing the quiz, the user sees their final score and highest score (highscore) if they play multiple times.
 
-### `npm run eject`
+🔁 Review Mode
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+• After finishing the quiz, users can review their answers.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+• Navigate between questions using Next and Previous buttons to see all responses.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🧩 Clean & Reusable Components
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+• Components are well-organized with clear naming conventions.
 
-## Learn More
+• Implemented component composition and children props to make UI parts flexible and maintainable.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🧠 Technical Highlights
 
-### Code Splitting
+React Hooks Used:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+• useReducer → for managing complex state logic cleanly and predictably.
 
-### Analyzing the Bundle Size
+• useEffect → for side effects such as fetching questions from the fake API.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Clean Code Practices:
 
-### Making a Progressive Web App
+• Consistent folder structure and naming.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+• Reusable and flexible UI components.
 
-### Advanced Configuration
+• Clear separation between logic and presentation.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+• Easy to maintain and scale
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+💡 What I Learned
 
-### `npm run build` fails to minify
+• How to manage complex state efficiently with useReducer.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+• How to structure React apps with reusable components.
+
+• How to handle data fetching and side effects using useEffect.
+
+• Building an app with a focus on clean, readable, and maintainable code.
+
+---
+
+⚙️ How to Run
+# Clone the repository
+git clone https://github.com/<your-username>/react-quiz-app.git
+
+# Navigate into the project
+cd react-quiz-app
+
+# Install dependencies
+npm install
+
+# Run the app
+npm run dev
+
+---
+
+🧑‍💻 Author
+
+• Anas Khaled Ahmed Mahmoud
+
+• Front-End Developer
+
+• Skills: HTML, CSS, JavaScript, TypeScript, Bootstrap, Angular, React
+
+• LinkedIn Profile: www.linkedin.com/in/anas-khaled-263b022ab
