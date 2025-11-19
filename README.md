@@ -23,13 +23,7 @@ This project demonstrates clean architecture, scalable state management, reusabl
 
 - Implemented React Context API to manage global quiz state without prop drilling.
 
-- Context manages:
-
-Current question index
-
-User answers
-
-Quiz progress
+- Context manages: Current question index, User answers, Quiz progress
 
 - Score & highscore
 
