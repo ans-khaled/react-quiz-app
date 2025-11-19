@@ -9,88 +9,89 @@ This project demonstrates clean architecture, scalable state management, reusabl
 
 📦 Dynamic Questions (Fake API Integration)
 
-• Custom-built fake API for quiz questions.
+- Custom-built fake API for quiz questions.
 
-• Questions are fetched dynamically when the app starts using useEffect.
+- Questions are fetched dynamically when the app starts using useEffect.
 
 🎚️ Filter by Difficulty
 
-• Users can filter questions by: All, Easy, Medium, or Hard.
+- Users can filter questions by: All, Easy, Medium, or Hard.
 
-• Each difficulty level has its own point value, providing a more realistic quiz experience.
+- Each difficulty level has its own point value, providing a more realistic quiz experience.
 
 🧠 Global State with Context API
 
-• Implemented React Context API to manage global quiz state without prop drilling.
+- Implemented React Context API to manage global quiz state without prop drilling.
 
-• Context manages:
+- Context manages:
 
-- Current question index
+Current question index
 
-- User answers
+User answers
 
-- Quiz progress
+Quiz progress
 
 - Score & highscore
 
 - Selected difficulty filter
 
-• Entire app reads state cleanly using useContext.
+- Entire app reads state cleanly using useContext.
 
 🏆 Dynamic Scoring System
 
-• Scores are calculated based on question difficulty.
+- Scores are calculated based on question difficulty.
 
-• Highscore is stored and updated across quiz attempts.
+- Highscore is stored and updated across quiz attempts.
 
 🔁 Review Mode
 
-• After finishing the quiz, users can review all their answers.
+- After finishing the quiz, users can review all their answers.
 
-• Navigation between questions using Next and Previous buttons.
+- Navigation between questions using Next and Previous buttons.
 
 🧩 Modular & Reusable Components
 
-• Clean folder structure and naming conventions.
+- Clean folder structure and naming conventions.
 
-• UI components are reusable, composable, and separated from logic.
+- UI components are reusable, composable, and separated from logic.
 
-• Easy to scale and maintain.
+- Easy to scale and maintain.
 
 ---
 
 🧠 Technical Highlights
-• React Hooks
 
-• useReducer → Managing complex state transitions in a predictable and clean way.
+- React Hooks
 
-• useEffect → Handling side effects like data fetching.
+- useReducer → Managing complex state transitions in a predictable and clean way.
 
-• useContext → Global state management without prop drilling.
+- useEffect → Handling side effects like data fetching.
 
-• Clean Code & Architecture
+- useContext → Global state management without prop drilling.
 
-• Clear separation of UI and business logic.
+- Clean Code & Architecture
 
-• Fully modular components.
+- Clear separation of UI and business logic.
 
-• Scalable state structure using reducers + context.
+- Fully modular components.
 
-• Responsive and readable code with consistent styling.
+- Scalable state structure using reducers + context.
+
+- Responsive and readable code with consistent styling.
 
 ---
 
 💡 What I Learned
 
-• Architecting a React app using Context API + useReducer.
+- Architecting a React app using Context API + useReducer.
 
-• Managing global and complex state without external libraries.
+- Managing global and complex state without external libraries.
 
-• Building clean, reusable, and scalable UI components.
+- Building clean, reusable, and scalable UI components.
 
-• Handling side effects and data fetching in React.
+- Handling side effects and data fetching in React.
 
-• Designing a quiz flow from start → play → finish → review.
+- Designing a quiz flow from start → play → finish → review.
 
 ---
 
