@@ -1,79 +1,101 @@
 🎯 React Quiz App
 
-A clean and well-structured React Quiz Application built using modern React hooks such as useReducer and useEffect.
-This app demonstrates strong knowledge of state management, component composition, and clean reusable code
+A fully interactive React Quiz Application built with modern React patterns, including Context API, useReducer, and useEffect.
+This project demonstrates clean architecture, scalable state management, reusable UI components, and production-level coding practices.
 
 ---
 
 🚀 Core Features
+📦 Dynamic Questions (Fake API Integration)
 
-📦 Fake API Integration
+Custom-built fake API for quiz questions.
 
-• Created a custom fake API for quiz questions.
-
-• Used useEffect to fetch and render questions dynamically when the app starts.
+Questions are fetched dynamically when the app starts using useEffect.
 
 🎚️ Filter by Difficulty
 
-• Users can filter questions by difficulty level: All, Easy, Medium, or Hard.
+Users can filter questions by: All, Easy, Medium, or Hard.
 
-• Each difficulty level affects the points assigned to the question.
+Each difficulty level has its own point value, providing a more realistic quiz experience.
+
+🧠 Global State with Context API
+
+Implemented React Context API to manage global quiz state without prop drilling.
+
+Context manages:
+
+Current question index
+
+User answers
+
+Quiz progress
+
+Score & highscore
+
+Selected difficulty filter
+
+Entire app reads state cleanly using useContext.
 
 🏆 Dynamic Scoring System
 
-• Each question has a specific point value based on difficulty.
+Scores are calculated based on question difficulty.
 
-• After completing the quiz, the user sees their final score and highest score (highscore) if they play multiple times.
+Highscore is stored and updated across quiz attempts.
 
 🔁 Review Mode
 
-• After finishing the quiz, users can review their answers.
+After finishing the quiz, users can review all their answers.
 
-• Navigate between questions using Next and Previous buttons to see all responses.
+Navigation between questions using Next and Previous buttons.
 
-🧩 Clean & Reusable Components
+🧩 Modular & Reusable Components
 
-• Components are well-organized with clear naming conventions.
+Clean folder structure and naming conventions.
 
-• Implemented component composition and children props to make UI parts flexible and maintainable.
+UI components are reusable, composable, and separated from logic.
+
+Easy to scale and maintain.
 
 ---
 
 🧠 Technical Highlights
+React Hooks
 
-React Hooks Used:
+useReducer → Managing complex state transitions in a predictable and clean way.
 
-• useReducer → for managing complex state logic cleanly and predictably.
+useEffect → Handling side effects like data fetching.
 
-• useEffect → for side effects such as fetching questions from the fake API.
+useContext → Global state management without prop drilling.
 
-Clean Code Practices:
+Clean Code & Architecture
 
-• Consistent folder structure and naming.
+Clear separation of UI and business logic.
 
-• Reusable and flexible UI components.
+Fully modular components.
 
-• Clear separation between logic and presentation.
+Scalable state structure using reducers + context.
 
-• Easy to maintain and scale
+Responsive and readable code with consistent styling.
 
 ---
 
 💡 What I Learned
 
-• How to manage complex state efficiently with useReducer.
+Architecting a React app using Context API + useReducer.
 
-• How to structure React apps with reusable components.
+Managing global and complex state without external libraries.
 
-• How to handle data fetching and side effects using useEffect.
+Building clean, reusable, and scalable UI components.
 
-• Building an app with a focus on clean, readable, and maintainable code.
+Handling side effects and data fetching in React.
+
+Designing a quiz flow from start → play → finish → review.
 
 ---
 
 ⚙️ How to Run
 # Clone the repository
-git clone https://github.com/<your-username>/react-quiz-app.git
+git clone https://github.com/ans-khaled/react-quiz-app.git
 
 # Navigate into the project
 cd react-quiz-app
@@ -81,17 +103,18 @@ cd react-quiz-app
 # Install dependencies
 npm install
 
-# Run the app
+# Run the development server
 npm run dev
 
 ---
 
 🧑‍💻 Author
 
-• Anas Khaled Ahmed Mahmoud
+Anas Khaled Ahmed Mahmoud
+Front-End Developer
 
-• Front-End Developer
+Skills:
+HTML, CSS, JavaScript, TypeScript, Bootstrap, Angular, React
 
-• Skills: HTML, CSS, JavaScript, TypeScript, Bootstrap, Angular, React
-
-• LinkedIn Profile: www.linkedin.com/in/anas-khaled-263b022ab
+LinkedIn:
+www.linkedin.com/in/anas-khaled-263b022ab
