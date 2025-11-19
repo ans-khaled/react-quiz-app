@@ -6,6 +6,7 @@ This project demonstrates clean architecture, scalable state management, reusabl
 ---
 
 🚀 Core Features
+
 📦 Dynamic Questions (Fake API Integration)
 
 • Custom-built fake API for quiz questions.
