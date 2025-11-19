@@ -1,4 +1,4 @@
-function Options({ question, dispatch, answer, hasFinished, answers }) {
+function Options({ question, dispatch, answer, hasFinished }) {
   const hasAnswerd = answer !== null;
 
   if (hasFinished) {
